@@ -1,0 +1,76 @@
+<!DOCTYPE>
+
+<html>
+  <head>
+    <title>Dein Trainingsplan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+  </head>
+
+  <body>
+
+    <header id="main-header" data-heigh-onload="149" data-height-loaded="true" data-fixed-height-onload="109" style="transform: translateY(0px); opacity: 1;">
+      <div class="logo_container">
+        <span class="logo_helper"></span>
+        <a href="main.html">
+          <img src="imgs/logo.png" alt="Muskel Pro" id="logo">
+        </a>
+      </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row flex-xl-nowrap justify-content-center">
+            <div class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content">
+                <h1>Eingabe</h1>
+                <p>Gebe deine Ausgangsdaten an, damit wir einen Trainingsplan für dich erstellen können.</p>
+                <div class="form-group">
+                    <label for="sexInput">Geschlecht</label>
+                    <select class="form-control" id="sexInput">
+                        <option>Männlich</option>
+                        <option>Weiblich</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="gymInput">Hast du Zugang zu einem Fitnessstudio</label>
+                    <select class="form-control" id="gymInput">
+                        <option>Ja</option>
+                        <option>Nein</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="hoursInput">Wie viele Stunden pro Woche möchtest du trainieren?</label>
+                    <input class="form-control" id="hoursInput" type="text" placeholder="3">
+                </div>
+                <div class="form-group">
+                    <label for="hoursInput">Wie viele Tage pro Woche möchtest du trainieren?</label>
+                    <input class="form-control" id="daysInput" type="text" placeholder="4">
+                </div>
+                <div class="form-group">
+                    <label for="levelInput">Wie fortgeschritten bist du?</label>
+                    <select class="form-control" id="levelInput">
+                        <option>Level 1</option>
+                        <option>Level 2</option>
+                        <option selected="selected">Level 3</option>
+                        <option>Level 4</option>
+                        <option>Level 5</option>
+                    </select>
+                </div>
+                <br><a href="#" onclick="saveData()" class="btn btn-lg btn-outline-dark w-100 mb-3" id="button_erstellen">Erstellen</a>
+            </div>
+        </div>
+    </div>
+    <footer class="bd-footer text-muted">
+      <div class="container-fluid p-3 p-md-5">
+        <p style="text-align: center;">
+          Designed und erstellt von <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_daniel.wrn_/"> Daniel Werner</a> im Rahmen eines Softwaresprojekt im Informatik-Unterricht der 12.Klasse.
+        </p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <body>
+</html>

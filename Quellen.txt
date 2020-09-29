@@ -1,0 +1,31 @@
+HTML:
+	Übungen mit Urls der Youtube Erklärvideos:
+		https://www.thefitnesstribe.com/list-of-compound-exercises/
+		https://www.thefitnesstribe.com/list-of-calisthenics-exercises/
+
+	HTML Struktur der Startseite entspricht ungefähr der von:
+		https://getbootstrap.com/
+
+	Input HTML Seite:
+		https://getbootstrap.com/docs/4.0/components/forms/
+
+	Trainingsplan HTML Seite:
+		https://getbootstrap.com/docs/4.0/components/card/
+
+	Header:
+		http://www.curiegym.de/
+
+	Fußnote:
+		https://getbootstrap.com/docs/4.0/examples/album/
+
+CSS:
+	verschieden meist durch die untersuchen Funktion auf den oben gezeigten Seiten
+
+JS:
+	isInt(value):
+		https://stackoverflow.com/questions/14636536/how-to-check-if-a-variable-is-an-integer-in-javascript
+
+	saveData():
+		https://stackoverflow.com/questions/17502071/transfer-data-from-one-html-file-to-another
+
+	

@@ -1,0 +1,76 @@
+body {
+	background-color: white;
+	/*font-family: 'Roboto', sans-serif;*/
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #212529;
+	margin: 0px;
+}
+h1 {
+    font-size: calc(1.525rem + 3.3vw);
+    color: #312c9b;
+    font-weight: normal;
+}
+
+svg {
+	overflow: hidden;
+	vertical-align: middle;
+}
+.mb-2, .my-2 {
+  margin-bottom: .5rem!important;
+}
+.mb-3m .my-3 {
+	margin-bottom: 2rem;
+}
+.bd-masthead {
+	position: relative;
+	padding: 3rem 15px;
+}
+@media (min-width: 576px) .bd-masthead {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.btn {
+	font-weight: 600;
+}
+
+.row {
+	margin: 10px;
+  border-color: #FFFF00;
+  border-width: medium;
+}
+
+.mb-4 {
+	margin-bottom: 1.5rem!important;
+}
+.mb-3 {
+    margin-bottom: 1rem!important;
+}
+.btn-outline-dark {
+	color: #312c9b;
+	border-color: #312c9b;
+}
+
+#main-header {
+	padding: 1rem;
+	background-color: black;
+}
+#logo {
+	display: table;
+  margin: 0 auto;
+}
+
+.form-group {
+    border-color:   red;
+    border-radius: 10px;
+    margin-bottom:  1.5rem;
+}
+
+#button_erstellen:hover {
+    color:  white;
+}
+.days {
+    margin-top: 15px;
+}
